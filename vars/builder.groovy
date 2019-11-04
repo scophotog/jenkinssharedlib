@@ -24,3 +24,4 @@ def test() {
   sh ('Check if this works')
 }
 return this;
+
