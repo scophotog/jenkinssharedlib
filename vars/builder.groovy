@@ -2,7 +2,7 @@
 
 def buildProject(Map args = [:]) {
 
-  def jobName = JOB_NAME.split('/')[1]
+  def jobName = JOB_NAME
   def repoName
   if (args.repoName) {
     repoName = args.repoName
