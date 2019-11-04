@@ -21,7 +21,7 @@ def buildProject(Map args = [:]) {
 }
 
 def test() {
-  sh ('Check if this works')
+  sh (echo 'Check if this works')
 }
 return this;
 
